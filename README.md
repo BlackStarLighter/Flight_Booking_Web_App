@@ -90,17 +90,6 @@ flight_booking_app/
 3. **Edit Flight**: Click "Edit" next to a flight to update its details.
 4. **Delete Flight**: Click "Delete" next to a flight to remove it.
 
-## Screenshots
-
-### Home Page
-![Home Page](https://via.placeholder.com/800x400.png?text=Home+Page)
-
-### Add Flight
-![Add Flight](https://via.placeholder.com/800x400.png?text=Add+Flight+Page)
-
-### Edit Flight
-![Edit Flight](https://via.placeholder.com/800x400.png?text=Edit+Flight+Page)
-
 ## Contributing
 
 Contributions are welcome! To contribute:
