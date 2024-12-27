@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Add New Flight</h2>
+<form method="POST" action="{{ url_for('add_flight') }}">
+    <div class="form-group">
+        <label for="flight_number">Flight Number</label>
+        <input type="text" class="form-control" id="flight_number" name="flight_number" required>
+    </div>
+    <div class="form-group">
+        <label for="origin">Origin</label>
+        <input type="text" class="form-control" id="origin" name="origin" required>
+    </div>
+    <div class="form-group">
+        <label for="destination">Destination</label>
+        <input type="text" class="form-control" id="destination" name="destination" required>
+    </div>
+    <div class="form-group">
+        <label for="departure_time">Departure Time</label>
+        <input type="datetime-local" class="form-control" id="departure_time" name="departure_time" required>
+    </div>
+    <div class="form-group">
+        <label for="arrival_time">Arrival Time</label>
+        <input type="datetime-local" class="form-control" id="arrival_time" name="arrival_time" required>
+    </div>
+    <button type="submit" class="btn btn-success">Add Flight</button>
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">Cancel</a>
+</form>
+{% endblock %}
